@@ -1,0 +1,79 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(155, 217, 223);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body::-webkit-scrollbar{
+    width: 0;
+}
+body .formul{
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formul form{
+    width: 450px;
+    display: flex;
+    padding: 15px;
+    border-radius: 15px;
+    background: white;
+    align-items: center;
+    justify-content: center; 
+}
+.formul form{
+    -webkit-box-shadow:0 2px 10px #777;
+    -moz-box-shadow:0 2px 10px #777;
+    box-shadow:0 2px 10px #777;
+}
+.formul form p{
+    font-size: 13pt;
+}
+.formul form input{
+    width: auto;
+    height: 30px;
+    border-radius: 6px;
+    border:1px solid rgb(204, 204, 204);
+    background: rgb(192, 188, 188);
+    color: black;
+    outline-color: rgb(200, 219, 157);
+    font-size: 13pt;
+}
+.formul form textarea{
+    border-radius: 6px;
+    border:1px solid rgb(204, 204, 204);
+    background: rgb(218, 215, 215);
+    color:black;
+    font-size: 14pt;
+    overflow: hidden;
+    outline-color: rgb(200, 219, 157);;
+}
+
+.formul .boton{
+    width: 80px;
+    margin-top: 10px;
+    background: green;
+    font-weight: 600;
+    font-size: 13pt;
+    color: white;
+    cursor: pointer;
+}
+.formul .boton2{
+    border: none;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background: rgb(0, 47, 128);
+    font-weight: 600;
+    font-size: 13pt;
+    padding: 3px;
+    border-radius:6px;
+    cursor: pointer;
+    color: white;
+}
+.formul .boton2 a{
+    color: white;
+    text-decoration: none;
+}

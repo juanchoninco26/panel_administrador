@@ -1,0 +1,156 @@
+body{
+    display: flex;
+    align-items: center;
+}
+.promocion{
+    width: 33%;
+    height: 100%;
+    color: green;
+}
+.mes p{
+    font-size: 20pt;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.caja1{
+    width: 100%;
+    height:auto;
+    background: rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+    
+}
+.subcaja1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.subcaja1{
+    padding:30px;
+    border-radius: 80px;
+}
+.subcaja1 input, textarea{
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.subcaja1 button{
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    border: none;
+    background: green;
+    color: white;border-radius: 5px;
+    
+}
+.prom-anterior{
+    width: 30%;
+    height: 100%;
+    margin-left: 30px;
+}
+.subcaja2{
+    background:rgb(10, 82, 10);
+    width: 230px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.subcaja2 h3,p{
+    margin: 0px;
+    margin-left:0px;
+}
+.perfil img{
+    width: 50px;
+    height: 40px;
+}
+.anteriores{
+    width: 350px;
+    height: 400px;
+    margin-top:25px;
+    background: rgba(255, 255, 255, 0.342);
+    color: green;
+    padding: 10px;
+    border-radius: 15px;
+    overflow: auto;
+}
+.anteriores::-webkit-scrollbar{
+    width:1px;
+}
+.txt-prom{
+    text-align: center;
+    font-size: 18pt;
+    display: flex;
+    justify-content: space-around;
+}
+.anteriores img{
+    width: 30px;
+    height: 30px;
+}
+#buscador{
+    display:none;
+}
+#buscador #buscar {
+    width: 28px;
+    height: 28px;
+    margin-left: 1px;
+    
+}
+#buscador #esconder{
+    width: 20px;
+    height: 28px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrar #buscar1{
+    width: 28px;
+    height: 28px;  
+}
+.lista{
+    width: 100%;
+    
+}
+.lista ol{
+    padding: 0.1rem;
+    margin-left:20px;
+    margin-right:20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lista ol li{
+    list-style: none;
+    width: 100%;
+    height: auto;
+    padding: 7px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+.lista ol li p{
+   width: 250px; 
+}
+.lista ol li button a{
+    font-size: 10pt;
+    font-weight: 500;
+}
+.lista button{
+    border: none;
+    background: green;
+    color: white; 
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+}

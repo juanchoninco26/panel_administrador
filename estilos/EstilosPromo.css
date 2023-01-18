@@ -1,0 +1,433 @@
+body{
+    background: #DAF7A6 ;
+    background-image: url(../imagenes/Recurso_png.png);
+    background-repeat: repeat-y;
+    background-position: right;
+    background-size: contain;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header img{
+    float: left;
+}
+header h1{
+    margin-left: 160px;
+    line-height: 100px;
+    color: #06330C;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#menu-h {
+    height:34px;
+    padding: 16px;
+    border-radius: 15px;
+    background-color: hsl(128, 79%, 11%);
+} 
+
+#menu-h ul {
+    display: flex;
+    text-align: center;
+    margin:auto;
+    font-size: 25px;
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin: 3px;
+}
+
+#menu-h a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+nav ul :hover{
+    background-color:#A9DFBF;
+}
+.img-menu{
+    display: none;
+}
+
+main {
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+main .caja1 {
+    width: 801px;
+    height: 450px;
+    padding: 0;
+    color:#06330C;
+    justify-content: space-around;
+    margin-left: 60px;
+}
+
+main h2 {
+    text-align:left;
+    color: #06330C;
+    font-size: 61px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 13px;
+}
+
+main .parrafo  ul {
+    text-align:left;
+    width: 400px;
+}
+
+main .Parrafo  {
+    text-align:left;
+    color: #06330C;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 600px;
+}
+
+
+aside {
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+}
+
+main aside .img2 {
+    margin-right: 100px;
+}
+main .pre0{
+    display: none;
+}
+main .pre{
+    margin-bottom: 100px;
+}
+.caja1 ul .btn_costo{
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main .caja1 .btn_costo {
+    font-size:35px;
+    text-align:center;
+    background: #62bf6e;
+    width: 130px;
+    border-radius: 10px;
+    margin-left: 330px;
+    margin-top: -65px;
+    height: 32px;
+    text-decoration: none;
+}
+
+.caja1 h5{
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+h5{
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    line-height: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn_comprar  :hover {
+    background-color:#A9DFBF;
+    border-radius: 10px;
+}
+
+li  {
+    list-style: none;
+}
+
+#btn_comprar ul {
+    display: flex;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#btn_comprar button {
+    font-size:35px;
+    text-align:center;
+    background: #06330C;
+    width: 150px;
+    border-radius: 10px;
+    margin-left: -190px;
+    margin-top: 150px;
+    height: 50px;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor:pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer h4{
+    color:#06330C;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+footer .tex{
+    margin-left: 0px;
+}
+
+footer h5{
+    text-align: right;
+    margin-left: 300px;
+    color: #06330C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.redes {
+    align-items: center;
+    margin-left: -0px;
+    display: block;
+}
+
+.redes .sociales{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 100px;
+    display: block;
+    margin-left: 0px;
+}
+
+.redes .sociales li{
+    display: inline-block;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.redes img:hover {
+      background-color:#A9DFBF;
+      border-radius: 20px;
+}
+
+/*para laptop*/
+@media screen and (max-width: 1124px) and  (min-width:701px){
+    header{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    header .content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main h2{
+        font-size: 30pt;
+        text-align: center;
+    }
+    main .caja1{
+        margin-left: 0px;
+    }
+    main .Parrafo{
+       font-size: 23pt;
+       width: auto; 
+    }
+    main #btn_comprar button{
+        margin-top: 410px;
+    }
+    main aside .img2{
+        margin-right: 0px;
+    }
+    footer{
+        display: block;
+    }
+    footer .tex h5{
+        text-align: center;
+        margin-left: 0px;
+        padding-bottom: 0px;
+        font-size: 20pt;
+        font-weight: 800;
+    }
+}
+/* para dispositivos moviles:celulares*/
+@media screen and (max-width: 700px) {
+    *{
+        box-sizing: border-box;
+        font-size: 13pt;
+    }
+    body{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        display: block;
+        align-items: center;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .inicio_imagen {
+        display: block;
+        justify-content: center;
+    }
+    .inicio_imagen img {
+        width: 100px;
+        height: 100px;
+    }
+    .img-menu{
+        display: block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        padding: 2px;
+        margin: 20px;  
+    }
+    nav ul li{
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        padding: 10px;
+        width: 100%;
+        
+    }
+    #menu-h {
+        background-color: transparent;
+        width: 100%;  
+        padding: 0px; 
+    }
+
+    #menu-h .sub-a {
+        visibility: hidden;
+        display: contents;
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    #menu-h .responsive{
+        visibility: visible;
+        display: block;
+        width: 100%;
+        text-align: center;
+        background-color: hsl(128, 79%, 11%);
+        transition: 2s;
+    }
+    #menu-h a {
+        padding: 1px;
+    }
+
+    #menu-h a img {
+        width: 0;
+        height: 0;
+    }
+
+    main{
+        display: block;
+        align-items: center;
+        justify-content: center;
+
+    }
+    main h2{
+        font-size: 20pt;
+        text-align: center;
+    }
+    main .caja1{
+        width: auto;
+        height: auto;
+        margin-bottom: 50px;
+        margin-left: 0;
+    }
+    main .Parrafo{
+        width: auto;
+        padding: 10px;
+    }
+    main .pre0{
+        display: block;
+    }
+    main .caja1 h5{
+        color: white;
+        background: #06330C;
+        width: 130px;
+        text-align: center;
+        border-radius: 8px;
+        
+    }
+    main .pre{
+        display: none;
+    }
+    #btn_comprar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #btn_comprar button{
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    aside{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    main aside .img2{
+        margin-right: 0px;
+    }
+
+    footer{
+        display: grid;
+    }
+    footer h5{
+        text-align: center;
+        margin-left: 0px;
+    }
+    .tex{
+        text-align: center;
+        order: 1;
+    }
+    .redes{
+        order: 2;
+    }
+    .copyright{
+        background: #62bf6e;
+        order: 3;
+    }
+    footer h4{
+        color: white;
+        margin-left: 0px;
+        padding-bottom: 0px;
+        text-align: center;
+        font-size: 13pt;
+    }
+
+}

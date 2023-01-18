@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    align-items: center;
+}
+.grafico-centro::-webkit-scrollbar{
+    width: 5px;
+}
+.grafico-centro::-webkit-scrollbar-thumb{
+    background: green;
+}
+
+.graficocentro{
+    width: 33%;
+    height: auto;
+    
+}
+.graficos {
+    width: 380px;
+    margin-bottom: 10px;
+    height: 200px;
+    background: white;
+    border-radius: 8px;
+    margin-left: -15px;
+}
+.graficos p{
+    text-align: center;
+}
+
+.grafico-derecho{
+    width: 30%;
+    height: 100%;
+}
+.subcaja2{
+    background:rgb(10, 82, 10);
+    width: 230px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.subcaja2 h3,p{
+    margin: 0px;
+    margin-left:0px;
+}
+.perfil img{
+    width: 50px;
+    height: 40px;
+}

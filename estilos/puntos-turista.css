@@ -1,0 +1,149 @@
+body{
+    display: flex;
+    align-items: center;
+}
+.sec2{
+    width: 33%;
+    height: 100%;
+    text-align: center;
+    color: green;
+}
+.pun-habilt{
+    width: auto;
+    margin: 0px;
+    height: 550px;
+    background: rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+    overflow: auto;
+}
+.pun-habilt::-webkit-scrollbar{
+    width: 1px;
+}
+.pun-habilt img{
+    width: 30px;
+    height: 30px;
+}
+.titulo{
+    width: 100%;
+    font-size: 17pt;
+    font-weight: 500;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#buscador{
+    display:none;
+}
+#buscador #buscar {
+    width: 28px;
+    height: 28px;
+    margin-left: 1px;
+    
+}
+#buscador #esconder{
+    width: 20px;
+    height: 28px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrar #buscar1{
+    width: 28px;
+    height: 28px;  
+}
+.lista ol{
+    margin-right:40px;
+    padding-bottom: 3px;
+
+}
+.lista ol li{
+    background: white;
+    list-style: none;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left:9px;
+    padding-right:9px;
+}
+.lista ol li a{
+    font-size: 10.5pt;
+}
+.lista button{
+    width: 70px;
+    height: 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.sec3{
+    width: 33%;
+    height: 100%;
+    margin-left: 40px;
+}
+.subcaja2{
+    background:rgb(10, 82, 10);
+    width: 230px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    
+}
+.subcaja2 h3,p{
+    margin: 0px;
+    margin-left:0px;
+}
+.perfil img{
+    width: 50px;
+    height: 40px;
+}
+.valor-desc{
+    width: fit-content;
+    padding: 30px;
+    color: green;
+    background:rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.valor-desc input{
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+}
+.valor-desc button{
+    margin-top: 10px;
+    color: white;
+    background: green;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 20px;
+}
+
+.valor-desc p{
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.punt-gen{
+    width: 190px;
+    padding:30px;
+    background:rgba(255, 255, 255, 0.342);
+    color: green;
+    border-radius: 15px;
+}
+.punt-gen p{
+    margin: 3px;
+    font-weight: 800;
+}

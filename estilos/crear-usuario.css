@@ -1,0 +1,172 @@
+body{
+    display: flex;
+    align-items: center;
+}
+.sec2{
+    width: 33%;
+}
+.sec2 h2{
+    color: green;
+}
+
+.otros-user{
+    width: fit-content;
+    height:500px;
+    background: rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+    overflow: auto;
+    margin-top: 20px;
+}
+.otros-user::-webkit-scrollbar{
+    width: 1px;
+}
+.titulo #buscar{
+    width: 28px;
+    height: 28px;
+}
+
+#buscador{
+    display:none;
+}
+#buscador #buscar1 {
+    width: 28px;
+    height: 28px;
+    margin-left: 1px;
+}
+#buscador #esconder{
+    width: 20px;
+    height: 28px;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#buscador .buscar{
+    background: rgb(20, 200, 20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10pc;
+    
+}
+#buscador #search{
+    border-radius: 20px;
+    border: none;
+    background: white;
+    height: 30px;
+    margin-left: 5px;
+}
+#buscador #search:focus-visible{
+    outline:none;
+}
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrar #buscar1{
+    width: 28px;
+    height: 28px;  
+}
+
+.lista ol{
+    width: 350px;
+    margin-right:40px;
+    padding-bottom: 3px;
+}
+.lista ol #datos{
+    display: block;
+}
+.lista ol #datos #resultado{
+    background: white;
+    list-style: none;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 7px;
+    margin-bottom: 10px; 
+}
+.lista ol li button{
+    color: white;
+    border: none;
+    background: red;
+    width: 80px;
+    height: 22px;
+    border-radius: 5px;
+
+}
+.lista ol li button a{
+    font-size: 11pt;
+}
+.sec3{
+    width: 33%;
+    margin-left: 30px;
+    color:green;
+}
+.subcaja3{
+    background:rgba(255, 255, 255, 0.342);
+    width: 260px;
+    height: auto;
+    padding: 5px;
+    border-radius: 15px;
+    color: green;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid green;
+    
+}
+.subcaja3 h3,p{
+    margin: 0px;
+    margin-left:0px;
+}
+.perfil img{
+    width: 50px;
+    height: 40px;
+}
+.agre-user{
+    width: fit-content;
+    background: rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+    color: green;
+}
+.agre-user button{
+    margin-left:20px;
+    margin-bottom: 20px;
+    color: white;
+    border: none;
+    background: green;
+    width: 80px;
+    height: 22px;
+    border-radius: 5px;
+}
+.titulo{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.titulo p{
+    margin-right: 10px;
+    font-size: 18pt;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: -10px;
+}
+.add-user{
+    padding: 20px;
+}
+.add-user input{
+    border: none;
+    width:280px;
+    height: 20px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+}
+.add-user #imagenPrevisualizacion{
+    width: 80px;
+    height: 80px;
+}
+

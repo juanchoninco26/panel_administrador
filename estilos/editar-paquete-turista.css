@@ -1,0 +1,166 @@
+:root{
+    --whithe:rgb(255, 255, 255);
+    --verde:rgb(26, 132, 0);
+    --whitesmoke:rgb(229, 229, 229);
+    --azul_claro:rgb(96, 129, 245);
+    --gris_claro:rgb(226, 224, 224);
+}
+
+body{
+    background: var(--white);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+    overflow: hidden; 
+}
+.volver{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.volver input{
+    text-decoration: none;
+    color: var(--verde);
+    font-size: 16pt;
+    background:var(--whithe);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.volver input:hover{
+    color: var(--azul_claro);
+}
+.agregar{
+    color: var(--verde);
+    font-size: 16pt;
+    background:var(--whithe);
+    border: none;
+    cursor: pointer;
+    margin-bottom: 5px; 
+}
+.agregar:hover{
+    color: var(--azul_claro);
+}
+.cajaInicial{
+    width: 100%;
+    height: 200px;
+    visibility: visible;
+    transition-duration: visibility 5s;
+}
+.displayCaja{
+    display: none;
+    visibility: hidden;
+}
+.cajaInicial .formulario{
+    width: 100%;
+    height: 200px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.cajaInicial .div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cajaInicial .div .subcajaUno{
+    display: flex;
+    flex-direction: column;
+}
+.cajaInicial .div .contenido{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.cajaInicial .div .subcajaUno .contenido label{
+    flex-basis: 70px;
+} 
+.cajaInicial .formulario{
+    width: 100%;
+    height: 15px;
+    display: ruby-base-container;
+    align-items:center;
+    justify-content: center;
+}
+.cajaInicial .formulario .boton_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajaInicial .formulario .boton {
+    width: 100px;
+    height: 30px;
+    border: none;
+}
+
+.cajaInicial .formulario .input{
+    width: 300px;
+    height: 27px;
+    border: none;
+    border-bottom: 2px solid var(--verde);
+    background: transparent;
+    outline: 0;
+}
+.cajaInicial .formulario .input:focus{
+    background: var(--gris_claro);
+    border-bottom: 2px solid var(--azul_claro);
+}
+
+.cajaInicial .formulario .textarea{
+    width: 300px;
+    height: auto;
+    border: none;
+    border-bottom: 2px solid var(--verde);
+    background: transparent;
+    outline: 0;
+}
+.cajaInicial .formulario .textarea:focus{
+    background:var(--gris_claro);
+    border-bottom: 2px solid var(--azul_claro);
+}
+.cajaInicial .formulario .subcajaDos{
+    display: flex;
+    flex-direction: column;
+    
+}
+.cajaInicial .div .subcajaDos .contenido label{
+    flex-basis: 95px;
+} 
+.tablas{
+    height: 400px;
+    overflow: auto;
+}
+.tablas .turista{
+    width: auto;
+}
+table{
+    width: 100%;
+}
+table, tr, td{
+    height: 20px;
+    border: 1px solid #dddddd;
+    border-collapse: collapse;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+.tablas .editar{
+    width:100%;
+    background: var(--azul_claro);
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 3px;
+    cursor: pointer;
+}
+.tablas .acciones a{
+    text-decoration: none;
+    color: white;
+}
+.tablas .eliminar{
+    width: 100%;
+    background: red;
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 3px;
+    cursor: pointer;
+}

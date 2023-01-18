@@ -1,0 +1,183 @@
+body{
+    display: flex;
+    overflow: hidden;
+}
+.contenedor1::-webkit-scrollbar{
+    width: 1px;
+}
+.contenedor1{
+    width:33%;
+    height:auto;
+    margin-left:-15px;
+    overflow: auto;
+    
+}
+.mincontenedor{
+    width:380px;
+    height:400px;
+    background: rgba(255, 255, 255, 0.350);
+    border-radius:15px;
+}
+.sitios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.sitios p{
+    text-align:center;
+    color: green;
+    margin-top: 10px;
+    font-size: 18pt;
+    font-weight:700;
+}
+.sitios img{
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+    color: white;
+}
+#buscador{
+    display:none;
+}
+#buscador #buscar {
+    width: 28px;
+    height: 28px;
+    margin-left: 1px;
+    
+}
+#buscador #esconder{
+    width: 20px;
+    height: 28px;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.centrar #buscar1{
+    width: 28px;
+    height: 28px;  
+}
+.contenedor1 ol li{
+    background:white;
+    width: 285px;;
+    height: 30px;
+    list-style:none;
+    padding:8px;
+    border-radius:10px;
+    align-items: center;
+}
+
+.contenedor1 ol li button{
+    background: rgb(233, 41, 41);
+    border-radius: 5px;
+    height: 25px;
+    border:none;
+    color: white;
+    cursor: pointer;
+}
+
+ol li{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedor1 ol li button a{
+    font-size: 11pt;
+}
+
+.editar-sitios{
+    width:380px;
+    height:300px;
+    overflow:auto;
+    border-radius:15px;
+}
+.editar-sitios::-webkit-scrollbar{
+    width:1px;
+}
+.contenedor2{
+    width: 380px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.350);
+    border-radius: 15px;
+}
+.paquetes{
+    padding-top: 0.1px;
+    margin: 20px;
+    padding-bottom: 150px;
+}
+.edpq H3{
+    text-align: center;
+}
+.edpq H3 A{
+    text-decoration: none;
+}
+
+.contenedortres{
+    width: 30%;
+    height: auto;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.subcaja2{
+    background:rgb(10, 82, 10);
+    width: 240px;
+    height: auto;
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.subcaja2 h3, p{
+    margin: 0px;
+    margin-left:0px;
+}
+.perfil img{
+    width: 50px;
+    height: 40px;
+}
+.agr-sitios{
+    background: rgba(255, 255, 255, 0.350);
+    margin:0;
+    border-radius: 15px;
+}
+.agr-sitios p{
+    color: green;
+}
+
+.formulario input, textarea{
+    border: none;
+    width: 290px;
+    height: 22px;
+    margin-bottom:0.8em;
+    border-radius: 8px;
+}
+.txt-sitio h3{
+    color: green;
+    text-align: center;
+}
+.form-1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-1 button{
+    margin-bottom: 20px;
+    background: green;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+

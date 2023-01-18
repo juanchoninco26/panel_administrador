@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    background:rgb(200, 219, 157);
+}
+.body{
+    display: grid;
+    grid-template-columns:auto ;
+    grid-template-rows:30% 60%;
+}
+.men{
+    width: 100%;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+}
+.sub-sec2 .p{
+    color: green;
+    font-size: 14pt;
+    margin-bottom: 10px;
+    font-weight: 800;
+    margin-right: 200px;
+}
+.subcaja3{
+    background:rgba(255, 255, 255, 0.342);
+    width: 260px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 15px;
+    color: green;
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid green;
+    
+}
+.subcaja3 h3,p{
+    margin: 0px;
+    margin-left:0px;
+}
+.perfil img{
+    width: 50px;
+    height: 40px;
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caj{
+    width: fit-content;
+    padding: 15px;
+    color: green;
+    background: rgba(255, 255, 255, 0.342);
+    border-radius: 15px;
+}
+.caj button{
+    color: white;
+    background: green;
+    width: fit-content;
+    padding: 6px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    
+}
+.mod-datos{
+    display: flex;
+}
+.mod-datos input{
+    border: none;
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+.texto{
+    font-size: 16pt;
+    font-weight: 800;
+    padding: 10px;
+}
+.dat{
+    margin: 5px;
+}
+.min-dat{
+    margin: 5px;
+}
+.min-dat #imagenPrevisualizacion{
+    width: 80px;
+    height: 80px;
+}
+

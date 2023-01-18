@@ -1,0 +1,485 @@
+body{
+    background: #DAF7A6;
+}
+
+/*layout exclusivo para dispositivos que funcionen con un ancho de ventana menor a 980 píxeles*/
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
+
+/*lo mismo para el ancho de un dispositivo móvil */
+@media screen and (max-width: 480px){
+    #encabezado{
+        height: auto;
+    }
+    #contenido{
+        width: auto;
+    }
+    #barra_lateral{
+        display:none;
+    }
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header div img {
+    margin-top: 10px;
+}
+
+h1{
+    margin-left: 160px;
+    color: #06330C;
+    font-size: 35px;
+    line-height: 180px;
+    margin-top:-8px;
+}
+
+#menu-h {
+    height:63px;
+    padding: 9px;
+    border-radius: 15px;
+    background-color: hsl(128, 79%, 11%);
+} 
+
+#menu-h ul {
+    display: flex;
+    text-align: center;
+    margin:auto;
+    font-size: 25px;
+    float: left;
+    list-style: none;
+    padding: 0px;
+    margin: 2px;
+}
+
+#menu-h a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 17.5px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+header li :hover{
+    background-color:#A9DFBF;
+}
+
+.Carrito {
+    background: #149425;
+    width: 100px;
+    height: 80px;
+    margin-left: 140px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.Carrito img {
+    width: 60px;
+    height: 60px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+main {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+main h1 {
+    color: black;
+    font-size: 60px;
+    margin-top:-50px;
+    margin-left: 20px;
+}
+/*desde aqui
+.Caja {
+    background:white;
+    width: 820px;
+    height: 250px;
+    margin-top: 110px;
+    margin-left: -350px;
+    border-radius: 20px;
+    display: flex;
+}
+
+.Caja form  h3 {
+    color: #149425;
+    font-size: 100px;
+    margin-left: 134px;
+    margin-top: -110px;
+}
+
+.Caja form h4 {
+    color: #149425;
+    font-size: 100px;
+    margin-top: -110px;
+    margin-left: 289px;
+}
+.eliminarlugar{
+    display: flex;
+}
+.eliminarlugar .subcaja button{
+    font-weight: 300;
+    display: block;
+    align-items: center;
+    float: right;
+    border: none;
+    border-radius: 5px;
+    background: rgb(192, 16, 16);
+    color: white;
+}
+.eliminarlugar .subcaja button a{
+    color: white;
+    text-decoration: none;
+}
+.Barra a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+form .subcaja {
+    width: 90px;
+    height: fit-content;
+    background: black;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-top: 30px;
+    padding: 5px;
+}
+*/
+.productos1::-webkit-scrollbar{
+    width: 0;
+    background: green;
+}
+.productos1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 140px;
+}
+.product{
+    width: 800px;
+    height: auto;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto auto auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+main .infom{
+    width:100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background: rgb(44, 42, 42);
+    line-height: 18px;
+}
+main .infom .boton{
+    width: 100%;
+    height: 10px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+main .infom a{
+    font-weight: 300;
+    display: block;
+    align-items: center;
+    float: right;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(192, 16, 16);
+    color: white;
+    width: 70px;
+}
+main .infom p{
+    text-align: center;
+}
+.compra .total{
+    width: fit-content;
+    border:solid 2px;
+    border-color: green;
+    border-radius: 5px;
+    margin-left: 850px;
+    margin-top: -180px;
+}
+.compra .total p{
+    margin: 3px;
+    color: green;
+}
+.botn-compra{
+    padding: 4px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    width: 130px;
+    font-weight: 500;
+    font-size: 13pt;
+}
+
+/**/
+.Barra {
+    color: white;
+    background: red;
+    border-radius: 20px;
+    width: 50px;
+    height: 15px;
+    margin-left: 30px;
+}
+
+main .Barra:hover{
+    background-color:#A9DFBF;
+}
+
+.Caja h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.Barra h6 {
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+.Caja form .subcaja1 {
+    width: 90px;
+    height: 85px;
+    background: black;
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: 45px;
+}
+
+.subcaja1 h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+.subcaja2 {
+    width: 90px;
+    height: 85px;
+    background: black;
+    border-radius: 15px;
+    margin-left: 1px;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.subcaja2 h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+main .Caja form .subcaja3 {
+    width: 90px;
+    height: 85px;
+    background: rgb(2, 2, 6);
+    border-radius: 15px;
+    margin-top: 30px;
+    padding: 5px;
+    margin-left: 45px;
+}
+
+.subcaja3 h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+main .Caja form .subcaja4 {
+    width: 90px;
+    height: 85px;
+    background: black;
+    border-radius: 15px;
+    margin-top: -103px;
+    padding: 5px;
+    margin-left: 200px;
+}
+
+.subcaja4 h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+main .Caja form .subcaja5 {
+    width: 90px;
+    height: 85px;
+    background: black;
+    border-radius: 15px;
+    margin-left: 357px;
+    margin-top: -85px;
+    padding: 5px;
+}
+
+.subcaja5 h5 {
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+div .Total {
+    width:140px;
+    height:auto;
+    border-radius: 5px;
+    border-color: #06330C;
+}
+
+.Total {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    height: 50px;
+    margin-top: 180px;
+    }
+
+.Total h5 {
+    font-family:Arial, Helvetica, sans-serif;
+    color:#149425;
+    text-decoration: none;
+    text-align:center;
+    font-size: 25px;
+    border-style:solid;
+    border-color: #23ac35;
+    border-radius: 15px;
+    border-width: 5px;
+    height: 50px;
+    width: 200px;
+    line-height: 40px;
+}
+
+#Comprar {
+    background-color:#06330C;
+    width:200px;
+    height:40px;
+    border-radius: 15px;
+    margin-left: 850px;
+}
+
+#Comprar ul {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 38px;
+    }
+
+#Comprar a {
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+#Comprar ul:hover{
+    background-color:#A9DFBF;
+    border-radius: 12px;
+}
+#limpiar_car button{
+    background-color:#06330C;
+    color: white;
+    width:200px;
+    height:40px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 850px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+#limpiar_car button:hover{
+    background-color:#A9DFBF;
+    border-radius: 12px;
+}
+
+button:not(:disabled){
+    margin-left: 850px;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    cursor:pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer h4{
+    color: #06330C;
+    margin-left: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 450px;
+}
+
+footer h5{
+    text-align: right;
+    margin-left: 550px;
+    color: #06330C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 450px;
+}
+
+.redes {
+    align-items: center;
+    display: block;
+    margin-bottom: 450px;
+}
+
+.redes .sociales{
+    text-align: center;
+    line-height: 100px;
+    display: block;
+}
+
+.redes .sociales li{
+    display: inline-block;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.redes img:hover {
+    background-color:#A9DFBF;
+    border-radius: 20px;
+}
